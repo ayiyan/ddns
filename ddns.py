@@ -4,6 +4,7 @@ from urllib.parse import urlencode
 from hashlib import sha1
 from datetime import datetime
 from base64 import encodestring
+from random import randint
 
 class modif_dns:
     def post(self, Aliyun_API):
